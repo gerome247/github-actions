@@ -26,4 +26,3 @@ runs:
         npm ci
         echo "cache=${{ steps.cache.outputs.cache-hit == 'true' && 'hit' || 'miss' }}" >> $GITHUB_OUTPUT
       shell: bash
-      shell: bash
